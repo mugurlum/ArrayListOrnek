@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.List;
 
 public class Calistir {
 
@@ -9,7 +10,11 @@ public class Calistir {
        //Generics  <>
 
 
-        ArrayList<Ogrenci> ogrenciListe = new ArrayList();
+        //Polymorphism---> Subclass'ın objesini , süper class'ın  değişkenine atamak
+        //ArrayList<Ogrenci> ogrenciListe = new ArrayList();
+
+
+        List<Ogrenci> ogrenciListe = new ArrayList();
 
         Ogrenci ogr1 = new Ogrenci(1,"ibrahim","tatlıses");
         Ogrenci ogr2 = new Ogrenci(2,"ferdi","tayfur");
